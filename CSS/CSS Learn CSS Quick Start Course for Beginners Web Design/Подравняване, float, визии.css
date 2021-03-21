@@ -1,0 +1,270 @@
+01.Source Code h1 {
+    color: red;
+    background-color: blue;
+}
+
+
+
+
+
+02.Source Code https: //coolors.co/f05d5e-0f7375-e7ecef-272932-d8a47f
+
+https: //developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+h1 {
+    color: forestgreen;
+    background-color: #4422DD;
+}
+
+
+
+03.Source Code h1 {
+    color: forestgreen;
+    background-color: #4422DD;
+}
+
+#bigH {
+    color: white;
+    background-color: green;
+}
+
+.el1 {
+    color: white;
+    background-color: red;
+}
+
+li {
+    color: white;
+    background-color: blueviolet;
+}
+
+.el2 {
+    color: white;
+    background-color: purple;
+}
+
+.el3 {
+    color: white;
+    background-color: darkgreen;
+}
+
+
+04 Source Code Source Code See the element with border https: //developer.mozilla.org/en-US/docs/Web/CSS/border
+
+Units sizes https: //developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+
+
+
+h1 {
+    color: purple;
+    background-color: #0000FF;
+}
+
+.box {
+    /*  border-color: aqua;
+  border-width: 5px;
+  border-style: solid;*/
+    background-color: red;
+    border: 5px solid aqua;
+    margin: 50px 10px 30px 5px;
+    padding: 40px 20px 10px 70px;
+    width: 300px;
+    height: 200px;
+}
+
+
+05. Source Code Background images https: //placeholder.com/
+
+https: //dummyimage.com/
+
+https: //developer.mozilla.org/en-US/docs/Web/CSS/background
+
+Repeat image Horizontally or vertically x or y axis? background-repeat: repeat-x;
+
+Position it where? top right left bottom Fixed attachment Shorthand - color > image > repeat > attachment > position .box {
+    height: 100px;
+    /* това трябва да е 600*600, за да се види картинката, която в момента е no-repeat fixed right bottom*/
+    width: 100px;
+    /*  background-color: blue;
+  background-image: url("https://dummyimage.com/200x200/f70000/f9f9fc&text=Hello");
+  background-repeat:repeat-x;
+  background-attachment:fixed;*/
+    background: green url("https://dummyimage.com/200x200/f70000/f9f9fc&text=Hello") no-repeat fixed right bottom;
+    /* трябва да са точно в този ред за да работят коректно
+    Важно! При background-attachment:fixed съдържанието се мести върху картинака. при background-attachment:scroll- картинката се мести със съдържанието.*/
+
+}
+
+
+06.Source Code https: //developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+h1 {
+    color: white;
+    background-color: #0000FF;
+    border: 1px dotted purple;
+}
+
+h1:hover {
+    color: red;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+
+a:visited {
+    color: red;
+    padding: 25px;
+}
+
+/* псевдоелементи :*/
+
+07.Source Code https: //developer.mozilla.org/en-US/docs/Web/CSS/display
+
+
+
+div {
+    color: white;
+    background-color: #0000FF;
+    /*  visibility: hidden;*/
+    display: inline;
+}
+
+span {
+    display: block;
+    /* block+div inline+span така вървят обикновено. Ако ги сменим div ще започне да се държи като span и обратното*/
+}
+
+/*има разлика между display: none и visibility: hidden !
+Display:none крие съдържанието и неговите боксове ( съдържанието се размества)
+visibility: hidden- крие само съдържанието, не и боксовете, съответно съдържанието се запазва!*/
+
+
+
+07,
+Source Code https: //developer.mozilla.org/en-US/docs/Web/CSS/position
+
+The position CSS property sets how an element is positioned in a document. The top,
+right,
+bottom,
+and left properties determine the final location of positioned elements. div {
+    color: white;
+    background-color: #0000FF;
+    /* position: relative;  ( така можем да местим падинга. иначе- не (ако е статик/фикст))
+left: 40px;*/
+    padding: 20px;
+    border: 1px solid black;
+}
+
+span {
+    display: block;
+    position: fixed;
+    background-color: red;
+    left: 40px;
+    top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    background-color: green;
+    left: 40px;
+    top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+/*Тук трябва да се внимава!
+това е 18 лекция от тук: https://www.udemy.com/course/css-course-quick/learn/lecture/18973508#overview
+ако div е в relative позиция, а span в fixed- дивът ще излезе над спан-а. 
+
+Така се прави и стики бар- с нагласяне на позициите , да погледна лекцията пак. */
+
+
+08. Source Code лекция 20 div {
+    color: white;
+    background-color: #0000FF;
+    /*  position: relative;
+  left: 40px;*/
+    padding: 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+h1,
+ul,
+.el5 {
+    clear: both;
+}
+
+img {
+    float: left;
+}
+
+/* тук се обяснява ка кда подравним текст със снимка. ПО подразбиране  float е none. 
+*/
+
+
+
+
+09.Source Code https: //fonts.google.com/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* @ се използва за импорт на нещо*/
+div.el1,
+h1 {
+    color: white;
+    background-color: #0000FF;
+    font-family: 'Permanent Marker', cursive;
+}
+
+img {}
+
+
+
+09. Source Code
+
+/* Важна е, а изобщо не я разбрах :(*/
+) style.css * {
+    box-sizing: border-box;
+    /* позволява на боксовете да заемат цялото налично пространство*/
+}
+
+.main {
+    width: 75%;
+    float: left;
+    background: blue;
+    padding: 15px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.sideContent:after {
+    content: "Hello World";
+    background: white;
+    font-size: 4em;
+}
+
+.sideContent {
+    width: 25%;
+    float: left;
+    background: red;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 3em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
