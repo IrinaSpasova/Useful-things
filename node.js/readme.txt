@@ -8,6 +8,6 @@
                 "name": "Launch Program",
                 "program": "${file}"
                 
-   ( Можем да си го копираме и от тук: https://pastebin.com/fHVqzN6f
+   ( Можем да си го копираме и от тук: https://pastebin.com/fHVqzN6f )
 
 5. Готово!
