@@ -25,6 +25,20 @@ function countDown(fromNumber) {
 }
 countDown(3);
 
+
+
+//recursive function to compute the factorial of any number:
+function factorial(n) {
+if (n === 0) {
+return 1;
+}
+else {
+return n * factorial(n-1);
+}
+}
+
+
+
 /* произволно число на степен
 
 function data(input0, input1){
