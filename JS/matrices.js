@@ -15,3 +15,32 @@ function createMatrix(row, column, isEmpty) {
 }
 
 createMatrix(5, 3, true);
+
+
+/*----------------------------------------------*/
+
+var matrix = [];
+for(var i=0; i<9; i++) {
+    matrix[i] = [];
+    for(var j=0; j<9; j++) {
+        matrix[i][j] = undefined;
+    }
+}
+console.log(matrix);
+
+/*------------------------------------------------------*/
+
+function Matrix(m, n, d){
+    var mat = Array.apply(null, new Array(m)).map(
+        Array.prototype.valueOf,
+        Array.apply(null, new Array(n)).map(
+            function() {
+               return d;
+            }
+        )
+    );
+    console.log(mat);
+    return mat;
+}
+
+Matrix(4,5,1)
