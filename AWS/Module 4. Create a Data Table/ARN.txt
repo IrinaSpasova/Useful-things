@@ -1,0 +1,2 @@
+Amazon Resource Name (ARN)
+ arn:aws:dynamodb:us-west-2:398506082535:table/HelloWorldDatabase
