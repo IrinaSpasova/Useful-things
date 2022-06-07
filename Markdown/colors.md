@@ -6,5 +6,7 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  
 - ![#1589F0](https://via.placeholder.com/150/1589F0/000000?text=+) 
 
+-~[`#f03c15`](<img src="https://fakeimg.pl/300/">)
+
 
 https://placeholder.com/
