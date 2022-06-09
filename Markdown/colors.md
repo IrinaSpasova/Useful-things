@@ -6,5 +6,9 @@
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  
 - ![#1589F0](https://via.placeholder.com/150/1589F0/000000?text=+) 
 
+- [#f03c15](https://fakeimg.pl/300/>)
+- [#c5f015](https://fakeimg.pl/300/>)
+- [#1589F0](https://fakeimg.pl/300/>)
+
 
 https://placeholder.com/
